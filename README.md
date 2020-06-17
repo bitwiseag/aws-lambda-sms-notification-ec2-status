@@ -7,7 +7,9 @@ Required attaching these policies to the IAM role
 	AmazonEC2ReadOnlyAccess
 	AmazonSNSFullAccess
 
-to edit lambda permissions:  click on permissions tab > click on role > add policies
+to edit lambda permissions:  
+
+go to lambda function > click on permissions tab > click on role > add policies
 
 
 ## Scheduled Event firing
