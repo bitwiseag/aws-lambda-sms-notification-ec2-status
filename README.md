@@ -45,7 +45,7 @@ Remove the + character
 
 
 
-# Send SMS alert with count & type of running EC2 instances
+# Original Readme: Send SMS alert with count & type of running EC2 instances
 
 I created this lambda function to send me the count and type of EC2 instances running in my account *(Yes, I'm burnt few times by unused EMR clusters).
 
