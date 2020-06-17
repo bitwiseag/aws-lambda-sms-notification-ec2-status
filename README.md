@@ -23,6 +23,23 @@ is a daily 9am UTC event.
 
 
 
+The mobile number should be E.164 format but without the + character.
+
+eg,
+
+You want to send a message to a number,
+
+The country code is 44
+
+The mobile number is (0)7700 900123
+
+The E.164 format would be +447700900123
+
+Remove the + character
+
+
+
+
 # Send SMS alert with count & type of running EC2 instances
 
 I created this lambda function to send me the count and type of EC2 instances running in my account *(Yes, I'm burnt few times by unused EMR clusters).
