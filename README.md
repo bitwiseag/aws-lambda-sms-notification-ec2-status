@@ -1,5 +1,7 @@
 # Tested June 2020
 
+## Lambda Permissions
+
 Required attaching these policies to the IAM role
 
 	AmazonEC2ReadOnlyAccess
@@ -7,6 +9,8 @@ Required attaching these policies to the IAM role
 
 to edit lambda permissions:  click on permissions tab > click on role > add policies
 
+
+## Scheduled Event firing
 
 To set up a scheduled event use CloudWatch
 Go to Events -> Rules
@@ -22,6 +26,7 @@ e.g.
 is a daily 9am UTC event.
 
 
+## Mobile Number Format 
 
 The mobile number should be E.164 format but without the + character.
 
